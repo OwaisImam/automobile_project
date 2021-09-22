@@ -376,7 +376,7 @@
                                                        echo $businessDetails->bname;
                                                    } ?>"
                                                    placeholder=""/>
-                 a                       </div>
+                                        </div>
                                     </div>
 
 
@@ -407,7 +407,7 @@
 
 
                                     <div class="form-group">
-                                        <label>Address</label>
+                                    <label>Address</label>
                                         <div>
                                             <input id="address" name="address" data-parsley-type="alphanum" type="text"
                                                    class="form-control" required
