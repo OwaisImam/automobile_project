@@ -614,18 +614,18 @@ class Dealer extends CI_Controller
         $mail->Host = 'smtp.gmail.com';
         $mail->isSMTP();
         // $mail->SMTPDebug = 2;
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
-        $mail->SMTPAuth = true;
-        $mail->Username = 'sandeepautomobile91@gmail.com';
-        $mail->Password = 'sandeep@girija';
-        $mail->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
+//        $mail->SMTPSecure = 'tls';
+//        $mail->Port = 587;
+//        $mail->SMTPAuth = true;
+//        $mail->Username = 'sandeepautomobile91@gmail.com';
+//        $mail->Password = 'sandeep@girija';
+//        $mail->SMTPOptions = array(
+//            'ssl' => array(
+//                'verify_peer' => false,
+//                'verify_peer_name' => false,
+//                'allow_self_signed' => true
+//            )
+//        );
         $mail->setFrom('sandeepautomobile91@gmail.com', 'Automobile');
         $mail->addAddress($email, 'automobile');     // Add a recipient
         $mail->isHTML(true);                                  // Set email format to HTML
