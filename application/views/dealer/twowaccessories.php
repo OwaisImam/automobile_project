@@ -470,7 +470,7 @@
                                                 <tbody>
                                                 <?php 
                                                 $count=0;
-                                                foreach($products  as $productDetails){  
+                                                foreach($products  as $productDetails){
                                                     $count = $count+1;
                                                     $arr = explode(",", $productDetails->product_image);
                                                     ?>  
